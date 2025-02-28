@@ -484,3 +484,11 @@ header nav ul li a:hover {
     color: #6a11cb;
     font-size: 250%;
 }
+
+.product input[type="number"] {
+    width: 130px;  /* تحديد عرض مستطيل الكمية */
+    padding: 5px;  /* إضافة بعض المسافة داخل المستطيل */
+    margin: 5px 0;  /* إضافة مسافة بين حقل الكمية والعناصر الأخرى */
+    font-size: 14px;  /* تغيير حجم الخط داخل مستطيل الكمية */
+    text-align: center;  /* محاذاة النص في المنتصف */
+}
